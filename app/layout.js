@@ -3,6 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
+  metadataBase: new URL('https://radarneural.com'),
   title: {
     default: 'Radar Neural — Notícias e Análises sobre IA',
     template: '%s | Radar Neural',
